@@ -1,67 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
     <style>
-       
-        .title{
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
             text-align: center;
-            width: 30x;
-            height: 70px;
-            border-radius: 20px;
-        }
-        .meow{ 
-            height: 200px;
-            width:250px;
-            margin: 20px;
-        }
-        .meow:active{
-            width: 500px; height: 400px;
-          
         }
         nav {
-            background-color: rgba(9, 8, 8, 0);
+            background-color: #444;
             padding: 10px;
             text-align: center;
+            
+        }
+        .only{
+            width: 60px;
+            height: 30px;
         }
         nav a {
-            color:black;
+            color: white;
             text-decoration: none;
             margin: 0 15px;
         }
         nav a:hover {
             text-decoration: underline;
         }
-      
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
     </style>
-        <head><title>PAN</title>
-            <h1 class="title">
-               <img src="only1.jpg" alt="OnlyPets" class="title">
-            </h1>
-    </head>
-        <body>
-                 
+</head>
+<body>
 
-            <nav>
-                <a href="website.html">Home</a>
-                <a href="doggie.html">Doggies</a>
-                <a href="spot.html">Spot</a>
-                <a href="Notice.html" target="_blank">Notice</a>
-            </nav>
+    <header>
+        <h1>Index</h1>
+    </header>
 
-           
-           <img src="DSCN0001.JPG", class="meow"/>
-           <img src="DSCN0015.JPG", class="meow"/>
-           <img src="DSCN0002.JPG", class="meow"/>
-           <img src="3.JPG", class="meow"/>
-           <img src="4.JPG", class="meow"/>
-           <img src="DSCN0003 (2).JPG", class="meow"/>
-           <img src="2.jpg", class="meow"/>
-           <img src="DSCN0012.JPG", class="meow"/>
-           <img src="DSCN0013.JPG", class="meow"/>
-           <img src="DSCN0926.JPG", class="meow"/>
-           <img src="DSCN1056.JPG", class="meow"/>
-           <img src="DSCN1070.JPG", class="meow"/>
-           <img src="DSCN1060.JPG", class="meow"/>
-           <img src="DSCN1058.JPG", class="meow"/>
-           <img src="DSCN1057.JPG", class="meow"/>
-        </body>
-    
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="contact.html" target="_blank">About</a>
+        <a href="about.html" target="_blank">Contact</a>
+        <a href="pan.html">
+        <img src="only.jpg" class="only"/>
+        </a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="services">
+            <h2>Notice</h2>
+            <a href="Notice.html" target="_blank">Please read.</a>
+        </section>
+
+        <section href=index.html id="about">
+            <h2>About</h2>
+            <a href="contact.html" target="_blank" >The reason this website was created.</a>
+        </section>
+
+        
+
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <a href="about.html" target="_blank">Click Here For details.</a>
+        </section>
+        
+        <section id="home">
+            <h2>Bonus</h2>
+           <button >
+            <a href="passfile.html" target="_blank">Easter Egg</a>
+        </button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 11, Aug, 2024 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
 </html>
